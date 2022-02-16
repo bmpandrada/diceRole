@@ -69,8 +69,14 @@
         width: 80%;
     }
     
-      @media only screen and (max-width: 600px) {
+   @media only screen and (max-width: 600px) {
         .container {
+            background: #3498db;
+        }
+        .dice {
+            display: inline;
+        }
+        .dice img {
             width: 50%;
         }
     }
