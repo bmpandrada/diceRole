@@ -1,9 +1,9 @@
+function btn() {
+    location.reload();
+}
+
+
 document.querySelector("h1").innerText = "Your love score!";
-
-
-
-
-
 
 
 var randomNumber = Math.floor(Math.random() * 6) + 1;
