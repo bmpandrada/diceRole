@@ -74,8 +74,9 @@ img {
     .dice {
         text-align: center;
         display: inline;
-    }
-     .container {
         width: 100%;
-    } 
+    }
+    .container {
+        width: 100%;
+    }
 }
