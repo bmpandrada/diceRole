@@ -69,11 +69,10 @@ img {
     width: 80%;
 }
 
-@media (max-width: 947px) {
-    .container {
-        width: 100%;
+
+@media (max-width: 690px) {
+    .dice {
         flex-direction: column;
     }
 }
-
 
