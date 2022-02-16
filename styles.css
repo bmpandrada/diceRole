@@ -70,13 +70,8 @@ img {
 }
 
 
-@media (max-width: 380px) {
-    .dice {
-        text-align: center;
-        display: inline;
-        width: 100%;
+  @media (max-width: 580px) {
+        .container .dice img {
+            flex-direction: column;
+        }
     }
-    .container {
-        width: 100%;
-    }
-}
