@@ -69,12 +69,8 @@
         width: 80%;
     }
     
-    @media (max-width: 480px) {
-        .container .dice {
-            flex-direction: column;
-            margin: 0 auto;
-        }
-        .dice img {
+     @media only screen and (max-width: 600px) {
+        .container img {
             width: 100%;
         }
     }
