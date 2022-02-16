@@ -70,9 +70,9 @@ img {
 }
 
 
-@media (max-width: 690px) {
+@media (max-width: 380px) {
     .dice {
-        flex-direction: column;
+        text-align: center;
+        display: inline;
     }
 }
-
