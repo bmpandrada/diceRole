@@ -72,11 +72,8 @@ img {
 @media (max-width: 947px) {
     .container {
         width: 100%;
+        flex-direction: column;
     }
 }
 
-@media (max-width: 690px) {
-    .container {
-        width: 100%;
-    }
-}
+
