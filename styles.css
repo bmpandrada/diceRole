@@ -75,4 +75,7 @@ img {
         text-align: center;
         display: inline;
     }
+     .container {
+        width: 100%;
+    } 
 }
