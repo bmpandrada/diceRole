@@ -70,8 +70,12 @@ img {
 }
 
 
-  @media (max-width: 580px) {
-        .container .dice img {
+@media (max-width: 480px) {
+        .container .dice {
             flex-direction: column;
+            width: auto;
+        }
+        .dice img {
+            width: 100%;
         }
     }
